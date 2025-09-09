@@ -8,7 +8,7 @@ const Header = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full bg-[#14121B] text-white font-inter z-999">
-      <div className="container mx-auto px-[16px] xl:px-0 flex items-center justify-between py-[15px]">
+      <div className="max-w-[1080px] mx-auto px-[16px] xl:px-0 flex items-center justify-between py-[15px]">
         <Link to="/">
           <img src={Logo} alt="logo" />
         </Link>

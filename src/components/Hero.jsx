@@ -5,7 +5,7 @@ import Image from "../assets/pitch_card.png";
 const Hero = () => {
   return (
     <div className="bg-gradient pt-[150px] ">
-      <div className="container mx-auto px-[16px] flex flex-col lg:flex-row items-top gap-[50px]">
+      <div className="max-w-[1080px] mx-auto px-[16px] flex flex-col lg:flex-row justify-between items-top gap-[50px]">
         <div className="text-white font-inter ">
           <h1 className="text-[30px]/[35px] md:text-[52px]/[52px] font-semibold w-auto md:w-[638px] pr-0 md:pr-[150px]">
             Créez un podcast pour développer votre{" "}
