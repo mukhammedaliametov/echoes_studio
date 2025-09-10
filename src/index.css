@@ -14,3 +14,7 @@
    min-height: 100vh;
    width: 100%;
 }
+
+.form-gradient{
+    background: radial-gradient(50% 50% at 50% 50%, #CF61FD 0%, #9645C8 69.28%, #7D23BB 100%);
+}
