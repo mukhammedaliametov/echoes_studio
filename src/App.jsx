@@ -8,6 +8,7 @@ import About from './components/About';
 import Clients from './components/Clients';
 import Form from "./components/Form";
 import Creators from './components/Creators';
+import Show from './components/Show';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Creators />
       <Support />
       <About />
+      <Show />
       <Clients />
       <Form />
       <Footer />
