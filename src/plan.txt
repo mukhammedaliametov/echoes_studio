@@ -1,0 +1,40 @@
+if / else
+- if -> shart to‘g‘ri bo‘lsa ishlaydi
+- else -> shart noto‘g‘ri bo‘lsa ishlaydi
+“Agar shunaqa bo‘lsa qil, bo‘lmasa boshqasini qil”
+
+Misol:
+let ball = 90;
+if(ball >= 100){
+   console.log("Zo‘r, ustoz 100 qo‘ydi!");
+} else {
+   console.log("Qaniydi 100 qo‘ysa 😅");
+}
+
+Operatorlar
++  qo‘shish
+-  ayirish
+*  ko‘paytirish
+/  bo‘lish
+%  qoldiq olish
+
+Misol:
+console.log(10 % 2); // 0 chiqadi -> juft
+console.log(11 % 2); // 1 chiqadi -> toq
+
+Math
+Math.round()  -> yaxlitlab beradi
+Math.floor()  -> pastga qarab yaxlitlaydi
+Math.ceil()   -> tepaga qarab yaxlitlaydi
+Math.random() -> 0 dan 1 gacha random son chiqaradi
+
+Misol:
+console.log(Math.round(4.6)); // 5
+console.log(Math.floor(4.9)); // 4
+console.log(Math.ceil(4.1));  // 5
+console.log(Math.random());   // tasodifiy son
+
+Xullas:
+- if/else -> shart tekshiradi
+- operatorlar -> hisob-kitob qiladi
+- Math -> matematik ishlarni yengillashtiradi
